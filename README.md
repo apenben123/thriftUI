@@ -10,7 +10,7 @@ ThriftUI 是一个基于 Python 的 Thrift 客户端测试工具，支持通过�
 
 - **动态加载 `.thrift` 文件**：无需手动编译 IDL 文件（utf-8），工具会自动解析并生成客户端代码。
 - **直观的图形界面**：通过 GUI 界面轻松配置服务地址、端口、方法名及参数。
-- **多协议支持**：支持 Thrift 传输协议（TFramedTransport）。
+- **协议支持**：支持 Thrift 传输协议（TFramedTransport）。
 ---
 
 ## 安装

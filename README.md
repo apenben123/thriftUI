@@ -1,4 +1,4 @@
-# ThriftUI
+# thriftUI
 
 [![Thrift Support](https://img.shields.io/badge/thrift-supported-green)](https://thrift.apache.org/)
 

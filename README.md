@@ -17,8 +17,8 @@ ThriftUI 是一个基于 Python 的 Thrift 客户端测试工具，支持通过�
 
 ### 克隆仓库
 ```bash
-git clone https://github.com/apenben123/ThriftUI.git
-cd ThriftUI
+git clone https://github.com/apenben123/thriftUI.git
+cd thriftUI
 ```
 
 ### 文件结构
@@ -28,8 +28,7 @@ cd ThriftUI
 .
 ├── idl                     // thrift文件目录
 ├── readme.md               // 说明文档
-├── thrift_tool.exe         // 测试工具执行文件
-└── UltraCodingSwitch.exe   // 文件编码转换工具, idl目录下的所有thrift文件需要是utf-8编码格式.
+└── thrift_tool.exe         // 测试工具执行文件
 ```
 
 ### 执行方式

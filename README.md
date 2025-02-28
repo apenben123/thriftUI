@@ -13,8 +13,6 @@ ThriftUI 是一个基于 Python 的 Thrift 客户端测试工具，支持通过�
 - **协议支持**：支持 Thrift 传输协议（TFramedTransport）。
 ---
 
-## 安装
-
 ### 克隆仓库
 ```bash
 git clone https://github.com/apenben123/thriftUI.git
@@ -42,5 +40,17 @@ cd thriftUI
    - 请求
    - 查看返回
 
-### 其他
-1. 暂时不支持入参为嵌套结构体类型
+## 样例
+
+测试页面
+
+![image-1.png](./image/image-1.png)
+
+构建对象页面
+
+![image-1.png](./image/image-3.png)
+
+构建嵌套对象页面
+
+![image-1.png](./image/image-2.png)
+

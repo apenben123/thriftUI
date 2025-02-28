@@ -1,5 +1,25 @@
-# thrift_rpc_test
-A tool for testing Thrift RPC functions
+# ThriftUI
+
+[![Thrift Support](https://img.shields.io/badge/thrift-supported-green)](https://thrift.apache.org/)
+
+ThriftUI 是一个基于 Python 的 Thrift 客户端测试工具，支持通过图形界面快速测试 Thrift 服务端接口。只需提供 `.thrift` 文件，即可动态生成客户端并调用接口。
+
+---
+
+## 特性
+
+- **动态加载 `.thrift` 文件**：无需手动编译 IDL 文件（utf-8），工具会自动解析并生成客户端代码。
+- **直观的图形界面**：通过 GUI 界面轻松配置服务地址、端口、方法名及参数。
+- **多协议支持**：支持 Thrift 传输协议（TFramedTransport）。
+---
+
+## 安装
+
+### 克隆仓库
+```bash
+git clone https://github.com/apenben123/ThriftUI.git
+cd ThriftUI
+```
 
 ### 文件结构
 
